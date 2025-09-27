@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Dogs']
+
+roboflow:
+  workspace: licenseplate3-owk5e
+  project: dogs-6zkfn
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/licenseplate3-owk5e/dogs-6zkfn/dataset/3
